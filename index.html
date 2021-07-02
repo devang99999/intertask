@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>interview task create login form</title>
+</head>
+<body class="colour">
+    <div class="maindiv"> 
+            <div style="display: block;margin: auto;padding-left: 10px;"><!--img class="log" src="k.media.logo.png" alt="kmedia logo"--> <p style="font-size: 22px; font-weight: 900;">LOGO GOES HERE</p> </div>           
+            <p class="main2p1">Sign in</p>
+            <div style="background:url(bottom.png)  no-repeat center ;height: 10px;width: 100%;"></div>
+            <form class="form1" action="index.php" method="POST">
+                <input class="input1"type="text"name="name" id="name" placeholder="Username" >
+                <div id="showerror" ></div>
+                <input class="input1"type="password" name="pwd" id="pwd" placeholder="Password">
+                <div id="error2"></div>
+                <div class="rmbm">
+                    <lable> <input type="checkbox"> REMEMBER ME</lable>
+                    <label> <a style="text-decoration: none;font-family: 'poppins',serif;" href="#">Forgot password</a> </label>
+                </div>
+                <div class="btndiv">
+                    <button class="btn1" type="submit" id="submit" name="submit">Sign in</button>
+                </div>
+            </form>
+            <p style="text-align: center;">already have an account? <a href="#">sign up here</a></p>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
